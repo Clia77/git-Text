@@ -1,0 +1,27 @@
+{
+  "iLogDllType": 0,
+  "iLogTypeCount": 12,
+  "objListLogName": [
+    "SYSTEM",
+    "PROCESS_STAGE_INSPECTION",
+    "RESULT",
+    "BUTTON_OPERATION",
+    "CONFIG_DATA",
+    "CAMERA",
+    "TACT_TIME",
+    "ETC",
+    "EXCEPTION",
+    "PROCESS_SIMULATION",
+    "VISION_RESULT",
+    "RESOURCE_INFOMATION"
+  ],
+  "strLogPath": "D:/Logs/",
+  "iRollingInterval": 0,
+  "iFileCountLimit": 365,
+  "iLogLevel": 0,
+  "iFileSizeLimitBytes": 10000000,
+  "bRollOnFileSizeLimit": true,
+  "strOutputTemplate": "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} {Level:u3}] {Message:lj}{NewLine}{Exception}",
+  "bShared": true,
+  "iFlushToDiskInterval": 1
+}

@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\loggerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\loggerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\loggingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\loggingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\seriloglogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\seriloglogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|c:\\users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\cdefinelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E104893-35D1-4A5E-BCE6-967F4A267EA6}|Deepnoid_Logger\\Deepnoid_Logger.csproj|solutionrelative:Deepnoid_Logger\\cdefinelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Deepnoid_Logger||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Deepnoid_Logger",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\Deepnoid_Logger.csproj",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\Deepnoid_Logger.csproj",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\Deepnoid_Logger.csproj*",
+              "RelativeToolTip": "Deepnoid_Logger\\Deepnoid_Logger.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-23T01:28:15.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LogManager.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\LogManager.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LogManager.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\LogManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:26:36.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationManager.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\ConfigurationManager.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\ConfigurationManager.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\ConfigurationManager.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\ConfigurationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:58:11.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LoggingConfiguration.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\LoggingConfiguration.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LoggingConfiguration.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\LoggingConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:56:26.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CDefineLog.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\CDefineLog.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\CDefineLog.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\CDefineLog.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\CDefineLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:10:13.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoggerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LoggerFactory.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\LoggerFactory.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\LoggerFactory.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\LoggerFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:08:22.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerilogLogger.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\SerilogLogger.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\SerilogLogger.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\SerilogLogger.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\SerilogLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T23:45:59.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\ILogger.cs",
+              "RelativeDocumentMoniker": "Deepnoid_Logger\\ILogger.cs",
+              "ToolTip": "C:\\Users\\\uB525\uB178\uC774\uB4DC\\source\\repos\\Deepnoid_Logger\\Deepnoid_Logger\\ILogger.cs",
+              "RelativeToolTip": "Deepnoid_Logger\\ILogger.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T23:39:00.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
