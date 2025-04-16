@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kjdgp\\Desktop\\Dll_Test\\Deepnoid_MemoryMap\\",
+  "WorkspaceRootPath": "C:\\Users\\kjdgp\\Desktop\\Work\\TypeProject\\Dll_Test\\Deepnoid_MemoryMap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE6E6075-95B7-461D-83C6-5B6E47054539}|Deepnoid_MemoryMap\\Deepnoid_MemoryMap.csproj|c:\\users\\kjdgp\\desktop\\dll_test\\deepnoid_memorymap\\deepnoid_memorymap\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE6E6075-95B7-461D-83C6-5B6E47054539}|Deepnoid_MemoryMap\\Deepnoid_MemoryMap.csproj|solutionrelative:deepnoid_memorymap\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE6E6075-95B7-461D-83C6-5B6E47054539}|Deepnoid_MemoryMap\\Deepnoid_MemoryMap.csproj|c:\\users\\kjdgp\\desktop\\work\\typeproject\\dll_test\\deepnoid_memorymap\\deepnoid_memorymap\\cmemorymapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6E6075-95B7-461D-83C6-5B6E47054539}|Deepnoid_MemoryMap\\Deepnoid_MemoryMap.csproj|solutionrelative:deepnoid_memorymap\\cmemorymapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kjdgp\\Desktop\\Dll_Test\\Deepnoid_MemoryMap\\Deepnoid_MemoryMap\\Class1.cs",
-              "RelativeDocumentMoniker": "Deepnoid_MemoryMap\\Class1.cs",
-              "ToolTip": "C:\\Users\\kjdgp\\Desktop\\Dll_Test\\Deepnoid_MemoryMap\\Deepnoid_MemoryMap\\Class1.cs",
-              "RelativeToolTip": "Deepnoid_MemoryMap\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Title": "CMemoryMapManager.cs",
+              "DocumentMoniker": "C:\\Users\\kjdgp\\Desktop\\Work\\TypeProject\\Dll_Test\\Deepnoid_MemoryMap\\Deepnoid_MemoryMap\\CMemoryMapManager.cs",
+              "RelativeDocumentMoniker": "Deepnoid_MemoryMap\\CMemoryMapManager.cs",
+              "ToolTip": "C:\\Users\\kjdgp\\Desktop\\Work\\TypeProject\\Dll_Test\\Deepnoid_MemoryMap\\Deepnoid_MemoryMap\\CMemoryMapManager.cs",
+              "RelativeToolTip": "Deepnoid_MemoryMap\\CMemoryMapManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T00:32:29.198Z",
+              "WhenOpened": "2025-02-04T00:21:54.392Z",
               "EditorCaption": ""
             }
           ]

@@ -8,7 +8,7 @@ namespace Database
 		/// <summary>
 		/// History Flatness
 		/// </summary>
-		public CManagerTable m_objManagerTableHistoryFlatness;
+		public CManagerTable m_objManagerTableHistory;
 		/// <summary>
 		/// History Delete
 		/// </summary>
@@ -34,15 +34,15 @@ namespace Database
 			// SQLite Connect
 			m_objSQLite.Connect();
 			// History Flatness 초기화
-			m_objManagerTableHistoryFlatness = new CManagerTable();
+			m_objManagerTableHistory = new CManagerTable();
 			CDatabaseParameter_Flatness objParameterType = objParameter as CDatabaseParameter_Flatness;
 			string strTablePath = $"{objParameterType.strDatabaseTablePath}\\{objParameterType.strTableHistoryFlatness}.txt";
-			m_objManagerTableHistoryFlatness.Initialize( m_objSQLite, strTablePath, "" );
+			m_objManagerTableHistory.Initialize( m_objSQLite, strTablePath, "" );
 			// Process History Delete 초기화
 			m_objProcessDatabaseHistoryDelete = new CProcessDatabaseHistoryDelete();
 			m_objProcessDatabaseHistoryDelete.Initialize(
 				m_objSQLite,
-				m_objManagerTableHistoryFlatness,
+				m_objManagerTableHistory,
 				( int )CDatabaseDefine.enumHistoryFlatness.DATE,
 				objParameter.bDatabaseDelete,
 				objParameter.iDatabaseDeletePeriod );
@@ -56,7 +56,7 @@ namespace Database
 			// Process History Delete 해제
 			m_objProcessDatabaseHistoryDelete?.DeInitialize();
 			// History Flatness
-			m_objManagerTableHistoryFlatness?.Deinitialize();
+			m_objManagerTableHistory?.Deinitialize();
 
 			// SQLite Disconnect
 			m_objSQLite?.Disconnect();
@@ -66,7 +66,7 @@ namespace Database
 
 		public override CManagerTable GetManagerTable()
 		{
-			return m_objManagerTableHistoryFlatness;
+			return m_objManagerTableHistory;
 		}
 
 		/// <summary>
@@ -79,7 +79,7 @@ namespace Database
 
 			do {
 				// History Flatness
-				if( false == m_objManagerTableHistoryFlatness?.IsCheckDatabaseTable() ) {
+				if( false == m_objManagerTableHistory?.IsCheckDatabaseTable() ) {
 					break;
 				}
 
@@ -102,7 +102,7 @@ namespace Database
 				string strQuery = null;
 				// 트랜잭션 시작 - SendMessage queue 에서 관리
 				//var objTransaction = m_objDatabaseHistory.m_objSQLite.HLBeginTransaction();
-				CManagerTable objManagerTable = m_objManagerTableHistoryFlatness;
+				CManagerTable objManagerTable = m_objManagerTableHistory;
 				strQuery = string.Format( "insert into {0} values (", objManagerTable.GetTableName() );
 				strQuery += string.Format( "'{0}',", objReportData.strMaterialID.ToUpper() ); // material id
 				string strDate = objReportData.objDateTime.ToString( CDatabaseDefine.DEF_DATE_TIME_FORMAT );

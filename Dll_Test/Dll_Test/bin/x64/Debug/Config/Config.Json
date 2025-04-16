@@ -12,17 +12,4 @@
   "iAliveTimePeriod": 1000,
   "strSimulationImagePath": "D:\\DeepnoidVisionInspection\\SimulationImages\\INSPECTION\\",
   "eBypassMode": 0,
-  "objDatabaseParameter": {
-    "strDatabasePath": "D:\\DeepnoidInspection\\Item\\Database\\",
-    "strDatabaseHistoryName": "DATABASE_HISTORY",
-    "strDatabaseInformationName": "DATABASE_INFORMATION",
-    "strDatabaseTablePath": "\\DatabaseTable",
-    "strDatabaseRecordPath": "\\DatabaseRecord",
-    "strTableInformationUIText": "TABLE_INFORMATION_UI_TEXT",
-    "strTableInformationUserMessage": "TABLE_INFORMATION_USER_MESSAGE",
-    "strRecordInformationUIText": "RECORD_INFORMATION_UI_TEXT",
-    "strRecordInformationUserMessage": "RECORD_INFORMATION_USER_MESSAGE",
-    "iDatabaseDeletePeriod": 1095,
-    "bDatabaseDelete": true
-  }
 }

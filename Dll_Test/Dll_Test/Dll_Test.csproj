@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ABD81198-7B92-49E3-B09D-8CF37038A399}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{CFFFD7EC-724D-4566-B3CD-5E4F64E79A12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Dll_Test</RootNamespace>
     <AssemblyName>Dll_Test</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -52,22 +52,7 @@
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Dll_Test.Program</StartupObject>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>CameraImage.ico</ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Deepnoid_Sensor_Gocator">
-      <HintPath>..\Deepnoid_Sensor_Gocator\Deepnoid_Sensor_Gocator\bin\x64\Debug\Deepnoid_Sensor_Gocator.dll</HintPath>
-    </Reference>
-    <Reference Include="Deepnoid_Sensor_Keyence_CL3">
-      <HintPath>..\Deepnoid_Sensor_Keyence_CL3\Deepnoid_Sensor_Keyence_CL3\bin\x64\Debug\Deepnoid_Sensor_Keyence_CL3.dll</HintPath>
-    </Reference>
-    <Reference Include="Deepnoid_Sensor_Keyence_LJX8">
-      <HintPath>..\Deepnoid_Sensor_Keyence_LJX8\Deepnoid_Sensor_Keyence_LJX8\bin\x64\Debug\Deepnoid_Sensor_Keyence_LJX8.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\Newtonsoft.Json.dll</HintPath>
@@ -78,7 +63,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\System.Data.SQLite.dll</HintPath>
     </Reference>
-    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
@@ -98,38 +83,40 @@
     <Compile Include="Algorithm\CAlgorithmNTC.cs" />
     <Compile Include="Algorithm\CAlgorithmTA.cs" />
     <Compile Include="Algorithm\CAlgorithmTabProtrusion.cs" />
+    <Compile Include="CInputText.cs" />
     <Compile Include="Database\CCsvFile.cs" />
-    <Compile Include="Database\CDatabaseDefine.cs" />
-    <Compile Include="Database\CDatabaseDefine_Flatness.cs" />
     <Compile Include="Database\CDatabaseDefine_TA.cs" />
-    <Compile Include="Database\CDatabaseParameter.cs" />
-    <Compile Include="Database\CDatabaseParameter_Flatness.cs" />
+    <Compile Include="Database\CDatabaseDefine_Flatness.cs" />
+    <Compile Include="Database\CDatabaseDefine.cs" />
     <Compile Include="Database\CDatabaseParameter_TA.cs" />
-    <Compile Include="Database\CDatabaseReport.cs" />
-    <Compile Include="Database\CDatabaseReport_Flatness.cs" />
+    <Compile Include="Database\CDatabaseParameter_Flatness.cs" />
+    <Compile Include="Database\CDatabaseParameter.cs" />
     <Compile Include="Database\CDatabaseReport_TA.cs" />
-    <Compile Include="Database\CDatabaseSendMessage.cs" />
-    <Compile Include="Database\CDatabaseSendMessage_Flatness.cs" />
     <Compile Include="Database\CDatabaseSendMessage_TA.cs" />
+    <Compile Include="Database\CDatabaseSendMessage_Flatness.cs" />
+    <Compile Include="Database\CDatabaseSendMessage.cs" />
+    <Compile Include="Database\CDatabaseReport_Flatness.cs" />
+    <Compile Include="Database\CDatabaseReport.cs" />
     <Compile Include="Database\CManagerTable.cs" />
     <Compile Include="Database\CProcessDatabase.cs" />
+    <Compile Include="Database\CProcessDatabaseHistory_TA.cs" />
+    <Compile Include="Database\CProcessDatabaseHistory_Flatness.cs" />
     <Compile Include="Database\CProcessDatabaseHistory.cs" />
     <Compile Include="Database\CProcessDatabaseHistoryDelete.cs" />
-    <Compile Include="Database\CProcessDatabaseHistory_Flatness.cs" />
-    <Compile Include="Database\CProcessDatabaseHistory_TA.cs" />
     <Compile Include="Database\CProcessDatabaseInformation.cs" />
     <Compile Include="Database\CSchemaInformation.cs" />
     <Compile Include="Database\CSQLite.cs" />
     <Compile Include="Database\CTxtFile.cs" />
     <Compile Include="Data\AEC256.cs" />
     <Compile Include="Data\CConfig.cs" />
+    <Compile Include="Data\CConfigDatabase.cs" />
     <Compile Include="Data\CConfigDefine.cs" />
-    <Compile Include="Data\CConfigRecipe_Monitoring.cs" />
-    <Compile Include="Data\CConfigRecipe_TA.cs" />
-    <Compile Include="Data\CConfigRecipe_NTC.cs" />
-    <Compile Include="Data\CConfigRecipe_Flatness.cs" />
-    <Compile Include="Data\CConfigRecipe_TabProtrusion.cs" />
     <Compile Include="Data\CConfigPLC.cs" />
+    <Compile Include="Data\CConfigRecipe_Flatness.cs" />
+    <Compile Include="Data\CConfigRecipe_Monitoring.cs" />
+    <Compile Include="Data\CConfigRecipe_NTC.cs" />
+    <Compile Include="Data\CConfigRecipe_TA.cs" />
+    <Compile Include="Data\CConfigRecipe_TabProtrusion.cs" />
     <Compile Include="Data\CConfigSensor.cs" />
     <Compile Include="Data\CConfigSystem.cs" />
     <Compile Include="Data\CLogin.cs" />
@@ -168,9 +155,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Deepnoid_LoadingProcess\Deepnoid_LoadingProcess\Deepnoid_LoadingProcess.csproj">
-      <Project>{b7b8d866-e4bc-4063-9945-128b1de46ccd}</Project>
-      <Name>Deepnoid_LoadingProcess</Name>
+    <ProjectReference Include="..\Deepnoid_Communication\Deepnoid_Communication\Deepnoid_Communication.csproj">
+      <Project>{1dfd5571-5b08-4946-906c-1082e941b117}</Project>
+      <Name>Deepnoid_Communication</Name>
     </ProjectReference>
     <ProjectReference Include="..\Deepnoid_Logger\Deepnoid_Logger\Deepnoid_Logger.csproj">
       <Project>{6e104893-35d1-4a5e-bce6-967f4a267ea6}</Project>
@@ -184,9 +171,19 @@
       <Project>{3da7cd09-b041-4c72-9be1-5674443e5c38}</Project>
       <Name>Deepnoid_PLC</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Deepnoid_Sensor_Gocator\Deepnoid_Sensor_Gocator\Deepnoid_Sensor_Gocator.csproj">
+      <Project>{0d4274ea-1f07-4665-95b5-532e3df8263c}</Project>
+      <Name>Deepnoid_Sensor_Gocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Deepnoid_Sensor_Keyence_CL3\Deepnoid_Sensor_Keyence_CL3\Deepnoid_Sensor_Keyence_CL3.csproj">
+      <Project>{4ae2323a-c54e-47aa-9862-a690f6310590}</Project>
+      <Name>Deepnoid_Sensor_Keyence_CL3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Deepnoid_Sensor_Keyence_LJX8\Deepnoid_Sensor_Keyence_LJX8\Deepnoid_Sensor_Keyence_LJX8.csproj">
+      <Project>{a371482d-5ee0-417a-bf8b-ccd440f2f9a6}</Project>
+      <Name>Deepnoid_Sensor_Keyence_LJX8</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="CameraImage.ico" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

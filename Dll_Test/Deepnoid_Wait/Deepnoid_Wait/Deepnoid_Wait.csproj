@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Deepnoid_MemoryMap">
-      <HintPath>..\..\Deepnoid_MemoryMap\Deepnoid_MemoryMap\bin\Debug\Deepnoid_MemoryMap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -84,6 +81,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Camera.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Deepnoid_MemoryMap\Deepnoid_MemoryMap\Deepnoid_MemoryMap.csproj">
+      <Project>{de6e6075-95b7-461d-83c6-5b6e47054539}</Project>
+      <Name>Deepnoid_MemoryMap</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

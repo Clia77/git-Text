@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // 이 프로젝트가 COM에 노출되는 경우 다음 GUID는 typelib의 ID를 나타냅니다.
-[assembly: Guid( "abd81198-7b92-49e3-b09d-8cf37038a399" )]
+[assembly: Guid( "cfffd7ec-724d-4566-b3cd-5e4f64e79a12" )]
 
 // 어셈블리의 버전 정보는 다음 네 가지 값으로 구성됩니다.
 //
@@ -29,8 +29,5 @@ using System.Runtime.InteropServices;
 //      빌드 번호
 //      수정 버전
 //
-// 모든 값을 지정하거나 아래와 같이 '*'를 사용하여 빌드 번호 및 수정 번호를
-// 기본값으로 할 수 있습니다.
-// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion( "1.0.0.0" )]
 [assembly: AssemblyFileVersion( "1.0.0.0" )]

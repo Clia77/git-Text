@@ -1,0 +1,12 @@
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\bin\x64\Debug\Deepnoid_Communication.dll
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\bin\x64\Debug\Deepnoid_Communication.pdb
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.csproj.AssemblyReference.cache
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.csproj.CoreCompileInputs.cache
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.dll
+C:\Users\kjdgp\Desktop\Work\TypeProject\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.pdb
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\bin\x64\Debug\Deepnoid_Communication.dll
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\bin\x64\Debug\Deepnoid_Communication.pdb
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.csproj.AssemblyReference.cache
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.csproj.CoreCompileInputs.cache
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.dll
+C:\Users\kjdgp\Desktop\Work\git-text\Dll_Test\Deepnoid_Communication\Deepnoid_Communication\obj\x64\Debug\Deepnoid_Communication.pdb

@@ -42,8 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CPLCDevice.cs" />
+    <Compile Include="CPLCDeviceAbstract.cs" />
+    <Compile Include="CPLCDeviceMelsec.cs" />
+    <Compile Include="CPLCDeviceParameter.cs" />
+    <Compile Include="CPLCDeviceVirtual.cs" />
+    <Compile Include="CPLCInterfaceMelsecAbstract.cs" />
+    <Compile Include="CPLCDefine.cs" />
+    <Compile Include="CPLCInterfaceMelsecParameter.cs" />
+    <Compile Include="CPLCMapData.cs" />
+    <Compile Include="CPLCInterfaceMelsecCCLink.cs" />
+    <Compile Include="CPLCInterfaceMelsecCCLinkDll.cs" />
+    <Compile Include="CPLCInterfaceMelsecSocket.cs" />
+    <Compile Include="CPLCInterfaceMelsecParameterAbstract.cs" />
+    <Compile Include="CPLCInterfaceMelsecParameterCCLink.cs" />
+    <Compile Include="CPLCInterfaceMelsecParameterSocket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Deepnoid_Communication\Deepnoid_Communication\Deepnoid_Communication.csproj">
+      <Project>{1dfd5571-5b08-4946-906c-1082e941b117}</Project>
+      <Name>Deepnoid_Communication</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
