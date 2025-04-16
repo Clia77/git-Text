@@ -1,9 +1,0 @@
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\bin\Debug\Dll_Test.exe.config
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\bin\Debug\Dll_Test.exe
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\bin\Debug\Dll_Test.pdb
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.csproj.AssemblyReference.cache
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.Properties.Resources.resources
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.csproj.GenerateResource.cache
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.csproj.CoreCompileInputs.cache
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.exe
-C:\Users\kjdgp\Desktop\DeepNoid_Dll\Dll_Test\Dll_Test\obj\Debug\Dll_Test.pdb
