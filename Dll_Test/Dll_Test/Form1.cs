@@ -124,6 +124,7 @@ namespace Dll_Test
 
 		private void btnInsert_Click( object sender, EventArgs e )
 		{
+			// test git
 			CDatabaseReport objReport = null;
 			// 타입별 구성
 			switch( m_eType ) {
