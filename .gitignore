@@ -1,5 +1,3 @@
-/Dll_Test/Dll_Test/obj
-/Dll_Test/Deepnoid_Communication/Deepnoid_Communication/obj
 /Dll_Test/Deepnoid_Communication/Deepnoid_Communication/bin/x64/Debug/Deepnoid_Communication.pdb
 /Dll_Test/Deepnoid_Communication/Deepnoid_Communication/bin/x64/Debug/Deepnoid_Communication.dll
 /Dll_Test/Dll_Test/bin/x64/Debug/Dll_Test.exe.config
@@ -25,4 +23,10 @@
 /Dll_Test/Dll_Test/bin/x64/Debug/Deepnoid_Wait.exe.config
 /Dll_Test/Dll_Test/bin/x64/Debug/Deepnoid_Wait.pdb
 /Dll_Test/Dll_Test/bin/x64/Debug/Dll_Test.exe
-/Dll_Test/.vs
+/Dll_Test/Deepnoid_LoadingProcess/Deepnoid_LoadingProcess/bin/Debug/Deepnoid_LoadingProcess.pdb
+/Dll_Test/Deepnoid_LoadingProcess/Deepnoid_LoadingProcess/bin/Debug/Deepnoid_MemoryMap.dll
+/Dll_Test/Deepnoid_LoadingProcess/Deepnoid_LoadingProcess/bin/Debug/Deepnoid_MemoryMap.pdb
+/Dll_Test/Deepnoid_LoadingProcess/Deepnoid_LoadingProcess/bin/Debug/Deepnoid_LoadingProcess.exe
+/Dll_Test/Deepnoid_LoadingProcess/Deepnoid_LoadingProcess/bin/Debug/Deepnoid_LoadingProcess.exe.config
+.vs
+obj
